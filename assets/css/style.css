@@ -461,6 +461,85 @@ h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+.imagemhero {
+  width: 90%;
+}
+
+@media (max-width: 1320px) {
+
+  #hero {
+    width: 100%;
+    height: 60vh;
+    background: #E8544F;
+  }
+
+  #hero .container {
+    padding-top: 72px;
+  }
+
+  #hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+  }
+
+  #hero h2 {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 50px;
+    font-size: 18px;
+  }
+
+  #hero .btn-get-started {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px 0 0 0;
+    color: #fff;
+    background: #f10909fb;
+  }
+
+  #hero .btn-get-started:hover {
+    background: #E8544F;
+  }
+
+  #hero .btn-watch-video {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    margin: 10px 0 0 25px;
+    color: #fff;
+    line-height: 1;
+  }
+
+  #hero .btn-watch-video i {
+    line-height: 0;
+    color: #fff;
+    font-size: 32px;
+    transition: 0.3s;
+    margin-right: 8px;
+  }
+
+  #hero .btn-watch-video:hover i {
+    color: #E8544F;
+  }
+
+  #hero .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+
+  .imagemhero {
+    width: 80%;
+  }
+}
+
 @media (max-width: 991px) {
   #hero {
     height: 100vh;
@@ -609,6 +688,31 @@ section {
     max-width: 40%;
   }
 }
+
+@media (max-width: 1320px) {
+  .clients img {
+    max-width: 70%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0px;
+    filter: grayscale(100);
+  }
+
+  .clients {
+
+    padding: 12px 0;
+    text-align: center;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Destaques do momento
+--------------------------------------------------------------*/
+
+
+
+
 
 /*--------------------------------------------------------------
 # Services
