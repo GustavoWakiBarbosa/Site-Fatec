@@ -1,7 +1,13 @@
-.teste {
+@media (max-width: 768px) {
+    .teste {
+        width: 30%;
+        margin-left: 5%;
+    }
 
-    margin-left: 43px;
+
 }
+
+
 
 .footerfateccampinas {
     display: block;

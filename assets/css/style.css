@@ -717,12 +717,22 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+@media (max-width: 1320px) {
+  .services .icon-box {
+    width: 250px !important;
+    height: 270px !important;
+  }
+}
+
 .services {
   margin-top: 50px;
 }
 
 .services .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 270px;
   padding: 30px 60px;
   transition: all ease-in-out 0.4s;
   background: #fff;
